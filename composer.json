@@ -1,0 +1,33 @@
+{
+    "name": "lakshmaji/clock",
+    "description": "Store or shop open hours library",
+    "keywords": [
+        "Laravel"
+    ],
+    "require": {
+        "spatie/opening-hours": "^1.4"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "lakshmaji",
+            "email": "lakshmajee88@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Lakshmaji\\Clock\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Lakshmaji\\Clock\\ClockServiceProvider"
+            ],
+            "aliases": {
+                "Clock": "Lakshmaji\\Clock\\Clock"
+            }
+        }
+    }
+}
