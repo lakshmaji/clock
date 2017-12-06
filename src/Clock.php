@@ -24,7 +24,7 @@ use Spatie\OpeningHours\OpeningHours;
 class Clock
 {
 
-    public function init($data)
+    public static function init($data)
     {
         // Sample input
         // [
